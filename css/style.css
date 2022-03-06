@@ -444,10 +444,13 @@ label {
   float: left;
   padding: 20px;
 }
+#footer .container {
+  width: 100%;
+}
 .leftPart {
   float: left;
   width: 40%;
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 5px;
 }
 .leftPart img {
