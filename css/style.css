@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
+
+/* Global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header Part */
+header {
+  background: url(../img/topBackground.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  margin-bottom: -280px;
+}
+
+/* Main Header */
+.mainHeader {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.logoPart {
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+}
+.logoPart:hover {
+  transform: scaleY(1.2);
+}
+.menuPart {
+  width: 50%;
+  float: left;
+  text-align: end;
+}
+.menuPart ul {
+  margin: 10px auto;
+}
+.menuPart li {
+  list-style: none;
+  display: inline-block;
+}
+.menuPart li:hover {
+  transform: scale(1.5);
+}
+.menuPart a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 25px;
+  color: white;
+}
+label {
+  display: none;
+  float: left;
+}
+#check {
+  z-index: 3;
+  display: none;
+}
+/* Hero Part */
+.hero {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.hero h1 {
+  padding-top: 75px;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+.hero p {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 15px;
+  color: white;
+}
+.hero a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 30px 15px;
+  padding: 3px 25px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: transparent;
+  position: relative;
+  font-weight: 500;
+}
+.hero a:hover {
+  color: #000;
+  background: #fff;
+  transition: 1s;
+}
+.hero img {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+}
+
+/* Section One */
+#marketingPart1 {
+  background: url(../img/midBackground1.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 200px 0 50px;
+}
+.phoneImage {
+  float: left;
+  width: 30%;
+  align-items: center;
+  margin-left: 125px;
+  margin-top: 30px;
+}
+.phoneImage img {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+}
+.services {
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.plate {
+  background: #fff;
+  padding: 25px 0 15px;
+  width: 185px;
+  height: 205px;
+  box-shadow: 0px 3px 5px 1px #c7bbbbb3;
+}
+.plate img {
+  width: 28px;
+  margin-top: 12px;
+}
+.plate h2 {
+  font-size: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+.plate p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #00000085;
+}
+.plate1 {
+  position: relative;
+  left: 67px;
+}
+.plate2 {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.plate3 {
+  position: relative;
+  margin-top: 50px;
+}
+.plate4 {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 60px;
+  height: 215px;
+}
+
+/* Section two  */
+#marketingPart2 {
+  background: url(../img/midBackground2.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.textPart {
+  float: left;
+  width: 50%;
+  text-align: end;
+  margin-top: 106px;
+  padding: 0 95px;
+}
+.textPart h3 {
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: #000000bd;
+}
+.textPart p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #8d7f7fed;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.textPart a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 30px 15px;
+  padding: 8px 30px 15px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 1px solid #23c3f3;
+  background: #33d2fd;
+  position: relative;
+  font-weight: 500;
+}
+.textPart a:hover {
+  transform: scale(1.1);
+}
+.hoverSelection {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+}
+.row {
+  background: #fff;
+  margin: 20px;
+  width: 390px;
+  padding: 20px 18px;
+  box-shadow: 0px 3px 5px 1px #c7bbbbb3;
+}
+.row:hover {
+  background: #23c3f3;
+  transition: 0.9s;
+  cursor: pointer;
+}
+.row img {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+}
+.row h3 {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  margin-left: 31px;
+  color: #000000bd;
+}
+.row2 p {
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 6px;
+  color: #8d7f7fed;
+}
+.row2 p:hover {
+  color: #fff;
+}
+.row2 img {
+  width: 12px;
+  margin-top: -3px;
+  margin-left: 7px;
+}
+
+/* Section Three  */
+#marketingPart3 {
+  background: url(../img/midBackground3.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.compilerPic {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+.compilerPic img {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.infoPart {
+  float: left;
+  width: 40%;
+  padding: 20px 6px;
+  margin-top: 62px;
+  margin-left: 106px;
+}
+.infoPart h4 {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: #000000bd;
+}
+.infoPart img {
+  display: block;
+  padding-bottom: 18px;
+  width: 62px;
+}
+.infoPart p {
+  font-size: 10px;
+  margin-top: 15px;
+  line-height: 23px;
+  color: #8d7f7fed;
+}
+
+/* Section Four  */
+#marketingPart4 {
+  background: url(../img/midBackground4.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.imagePart {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+.imagePart img {
+  display: block;
+  width: 200px;
+  margin-top: 53px;
+  margin-left: 208px;
+  margin-bottom: 35px;
+}
+.getNow {
+  float: left;
+  width: 40%;
+  padding: 20px 6px;
+  margin-top: 185px;
+}
+.getNow h5 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #000000a8;
+}
+.getNow p {
+  font-size: 10px;
+  line-height: 23px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.getNow img {
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  margin-right: 25px;
+}
+.getNow img:hover {
+  transform: scale(1.1);
+}
+.getApp {
+  position: absolute;
+  width: 303px;
+  height: 45px;
+  text-transform: uppercase;
+  background: linear-gradient(#fd7071, #f84979);
+  border: 0px;
+  margin-top: 167px;
+  margin-left: -454px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.getApp:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Section Five  */
+#contactUs {
+  background: url(../img/midBackground2.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.sammaryPart {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+.column {
+  float: left;
+  align-content: center;
+  margin: 50px;
+}
+.column h6 {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000000d9;
+}
+.column p {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 20px;
+  color: #8d7f7fed;
+}
+.contactUs {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.contactUs h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #000000bd;
+}
+.contactUs p {
+  font-size: 10px;
+  margin-bottom: 40px;
+  color: #8a7575;
+}
+.contactUs input {
+  width: 385px;
+  height: 30px;
+  margin-right: 18px;
+  background: #f6f7fb;
+  border: none;
+  outline: none;
+}
+.contactUs button {
+  text-transform: uppercase;
+  width: 110px;
+  height: 30px;
+  background: #33d2fd;
+  border: none;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Footer Part  */
+#footer {
+  background: url(../img/footerBG.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+.leftPart {
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.leftPart img {
+  width: 160px;
+}
+.iconPart {
+  float: left;
+  width: 30%;
+  margin-left: 258px;
+}
+.iconPart a {
+  display: inline-block;
+  margin-right: 40px;
+}
+.iconPart i {
+  font-size: 17px;
+  color: #fff;
+}
+.iconPart i:hover {
+  transform: scale(1.3);
+}
+.iconPart img {
+  width: 18px;
+}
+.iconPart img:hover {
+  transform: scale(1.3);
+}
+
+/* Responsive part   */
+@media (max-width: 960px) {
+  header {
+    height: 710px;
+  }
+  .logoPart {
+    margin-left: 12px;
+    width: 75%;
+  }
+  .menuPart {
+    display: none;
+  }
+  #check:checked ~ .menuPart {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(114, 223, 255, 0.9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #check:checked ~ .menuPart a {
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
+  #check:checked ~ label .fa-bars {
+    display: none;
+  }
+  #check:checked ~ label .fa-xmark {
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: color;
+    color: #fff;
+  }
+  label i:hover {
+    color: #000;
+  }
+  label .fa-xmark {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 25px;
+  }
+  .hero p {
+    font-size: 10px;
+  }
+}
