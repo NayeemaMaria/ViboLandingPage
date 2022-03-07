@@ -483,7 +483,7 @@ label {
 @media (max-width: 760px) {
   /* Header Part  */
   header {
-    height: 688px;
+    margin-bottom: -77px;
   }
   .logoPart {
     margin-left: 12px;
@@ -493,8 +493,9 @@ label {
     width: 80px;
   }
   .menuPart {
-    width: 224px;
-    margin-left: 0;
+    width: 210px;
+    margin: 0;
+    margin-left: 14px;
   }
   .menuPart a {
     font-size: 12px;
@@ -517,7 +518,6 @@ label {
 
   /* Section One  */
   #marketingPart1 {
-    background-size: contain;
     display: block;
     margin-top: -34px;
     padding: 0;
@@ -577,9 +577,6 @@ label {
     margin-top: 201px;
   }
   /*Section Two */
-  #marketingPart2 {
-    background-size: contain;
-  }
   .textPart {
     margin: 0;
     padding: 0;
@@ -663,14 +660,12 @@ label {
   }
 
   /* Section Four  */
-  #marketingPart4 {
-    background-size: contain;
-  }
   .imagePart {
     width: 30%;
     padding: 0;
-    margin-top: 40px;
+    margin-top: 19px;
     margin-left: 50px;
+    height: 188px;
   }
   .imagePart img {
     display: block;
@@ -703,8 +698,82 @@ label {
   .getApp {
     width: 132px;
     height: 25px;
-    margin-top: 74px;
+    margin-top: 53px;
     margin-left: -178px;
     font-size: 11px;
+  }
+
+  #contactUs {
+    padding: 0;
+    margin-top: 15px;
+  }
+  .sammaryPart {
+    margin: 0px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 27px;
+  }
+  .column {
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .column h6 {
+    font-size: 9px;
+  }
+  .column p {
+    font-size: 6px;
+    margin: 2px;
+    line-height: 9px;
+  }
+  .contactUs {
+    margin: 5px 0px;
+  }
+  .contactUs h6 {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  .contactUs p {
+    font-size: 7px;
+    margin-bottom: 10px;
+  }
+  .contactUs input {
+    width: 200px;
+  }
+  .contactUs button {
+    width: 90px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  /* Footer Part  */
+  #footer {
+    padding: 0px;
+  }
+  #footer .container {
+    width: 100%;
+  }
+  .leftPart {
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+  .leftPart img {
+    width: 123px;
+  }
+  .iconPart {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    width: 40%;
+  }
+  .iconPart a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .iconPart i {
+    font-size: 14px;
+    color: #fff;
+  }
+  .iconPart img {
+    width: 14px;
   }
 }
