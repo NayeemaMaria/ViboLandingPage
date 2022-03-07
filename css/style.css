@@ -480,62 +480,231 @@ label {
 }
 
 /* Responsive part   */
-@media (max-width: 960px) {
+@media (max-width: 760px) {
+  /* Header Part  */
   header {
-    height: 710px;
+    height: 688px;
   }
   .logoPart {
     margin-left: 12px;
-    width: 75%;
+    width: 30%;
+  }
+  .logoPart img {
+    width: 80px;
   }
   .menuPart {
-    display: none;
+    width: 224px;
+    margin-left: 0;
   }
-  #check:checked ~ .menuPart {
-    display: flex;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(114, 223, 255, 0.9);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #check:checked ~ .menuPart a {
-    font-weight: 700;
-    margin-right: 0;
-    margin-bottom: 50px;
-    letter-spacing: 2px;
-  }
-  #check:checked ~ label .fa-bars {
-    display: none;
-  }
-  #check:checked ~ label .fa-xmark {
-    z-index: 2;
-    display: block;
-    position: fixed;
-  }
-  label {
-    display: block;
-    cursor: pointer;
-    font-size: 25px;
-    transition: 0.3s;
-    transition-property: color;
-    color: #fff;
-  }
-  label i:hover {
-    color: #000;
-  }
-  label .fa-xmark {
-    display: none;
+  .menuPart a {
+    font-size: 12px;
+    margin: 0;
+    margin-right: 15px;
   }
   .hero h1 {
     font-size: 25px;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
   }
   .hero p {
     font-size: 10px;
+  }
+  .hero img {
+    width: 100px;
+    margin: 0 121px;
+  }
+
+  /* Section One  */
+  #marketingPart1 {
+    background-size: contain;
+    display: block;
+    margin-top: -34px;
+    padding: 0;
+  }
+  .phoneImage {
+    width: 100px;
+    margin: 0;
+  }
+  .phoneImage img {
+    width: 80px;
+    margin-top: 113px;
+  }
+  .services {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  .plate {
+    padding: 0;
+    margin: 0;
+    height: 85px;
+    width: 76px;
+  }
+  .plate img {
+    width: 15px;
+    padding: 0;
+    margin-top: 6px;
+  }
+  .plate h2 {
+    font-size: 8px;
+    margin: 0;
+  }
+  .plate p {
+    line-height: 7px;
+    font-size: 5px;
+  }
+  .plate1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 80px;
+  }
+  .plate2 {
+    position: absolute;
+    margin-left: 136px;
+    margin-top: 89px;
+  }
+  .plate3 {
+    position: absolute;
+    margin-top: 177px;
+    margin-left: 17px;
+  }
+  .plate4 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 201px;
+  }
+  /*Section Two */
+  #marketingPart2 {
+    background-size: contain;
+  }
+  .textPart {
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    margin-right: 12px;
+  }
+  .textPart h3 {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+  }
+  .textPart p {
+    line-height: 10px;
+    font-size: 5px;
+    margin: 0;
+  }
+  .textPart a {
+    font-size: 10px;
+    padding: 3px;
+    margin: 0;
+  }
+  .hoverSelection {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+  }
+  .row {
+    margin: 0;
+    width: 167px;
+    padding: 5px;
+    margin-top: 6px;
+  }
+  .row img {
+    width: 12px;
+  }
+  .row h3 {
+    font-size: 8px;
+  }
+  .row2 p {
+    font-size: 6px;
+    margin-left: 7px;
+  }
+  .row2 p:hover {
+    color: #fff;
+  }
+  .row2 img {
+    width: 8px;
+  }
+
+  /* Section Three  */
+  #marketingPart3 {
+    margin-top: 10px;
+  }
+  .compilerPic {
+    width: 20%;
+    padding: 0;
+  }
+  .compilerPic img {
+    width: 168px;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  .infoPart {
+    padding: 0;
+    margin-top: 18px;
+    margin-left: 135px;
+  }
+  .infoPart h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .infoPart img {
+    padding-bottom: 7px;
+    width: 55px;
+  }
+  .infoPart p {
+    font-size: 6px;
+    margin-top: 0;
+    line-height: 5px;
+  }
+
+  /* Section Four  */
+  #marketingPart4 {
+    background-size: contain;
+  }
+  .imagePart {
+    width: 30%;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .imagePart img {
+    display: block;
+    width: 75px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .getNow {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    margin-left: 13px;
+  }
+  .getNow h5 {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 57px;
+  }
+  .getNow p {
+    font-size: 8px;
+    line-height: 10px;
+    margin: 0px;
+  }
+  .getNow img {
+    display: inline-block;
+    width: 60px;
+    height: 18px;
+    margin: 0px;
+  }
+  .getApp {
+    width: 132px;
+    height: 25px;
+    margin-top: 74px;
+    margin-left: -178px;
+    font-size: 11px;
   }
 }
